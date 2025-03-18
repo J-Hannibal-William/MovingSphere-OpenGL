@@ -1,2 +1,18 @@
-# MovingSphere-OpenGL
-This project renders a moving and rotating sphere with realistic lighting and shadow effects using OpenGL in Python. The sphere moves along the x-axis while rotating, with a semi-transparent shadow beneath it. The animation runs smoothly at ~60 FPS using GLUT for rendering and timing.
+# Moving Sphere with Shadows (OpenGL)  
+
+## Description  
+This project visualizes a **moving and rotating sphere** with realistic **shadows and lighting** using OpenGL in Python. The sphere moves back and forth along the x-axis while rotating, and a semi-transparent shadow appears on the ground to simulate real-world effects.
+
+## Features  
+- **Real-time animation** (~60 FPS)
+- **Lighting and shading** for a realistic effect
+- **Dynamic movement** with automatic direction reversal
+- **Shadow projection** to improve visual appeal  
+
+## Installation  
+
+### **Prerequisites**  
+Ensure you have Python installed along with the required dependencies:  
+
+```bash
+pip install PyOpenGL PyOpenGL_accelerate numpy
